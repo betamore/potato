@@ -15,10 +15,11 @@ nav {
   margin: 1em;
   position: absolute;
   transition: transform .9s;
+  width: 220px;
 }
 
 nav.isOpen {
-  transform: translate3d(100px,0,0);
+  transform: translate3d(220px,0,0);
 }
 
 nav li {
@@ -32,4 +33,15 @@ nav ul {
   justify-content: space-between;
   min-height: 10em;
 }
+
+main {
+  flex: 1;
+  transform: translate3d(0,0,0);
+  transition: transform .9s;
+}
+
+main.isOpen {
+  transform: translate3d(100px,0,0);
+}
+
 
