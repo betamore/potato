@@ -34,6 +34,19 @@ nav ul {
   min-height: 10em;
 }
 
+/* hamburger */
+
+.hamburger {
+  cursor: pointer;
+  float: right;
+  margin-right: 1em;
+}
+
+.hamburger:before {
+  content: "\f0c9";
+  font: 3em fontawesome;
+}
+
 main {
   flex: 1;
   transform: translate3d(0,0,0);
