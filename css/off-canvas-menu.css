@@ -4,6 +4,12 @@
 
 /*  ================ Main wrapper ================ */
 
+body {
+  overflow-x: hidden;
+}
+
+/* outer wrapper */
+
 #wrapper {
   display: flex;
   min-height: 100%;
