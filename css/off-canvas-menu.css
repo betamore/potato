@@ -17,24 +17,30 @@ nav {
   transition: transform .9s;
 }
 
-nav li {
-  display: block;
-}
-
-nav a {
-  color: #000;
-}
-
-nav a[href="buy-now"] {
-  border-color: #ccb081;
-}
-
 nav ul {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 10em;
+}
+
+nav a {
+  color: #000;
+}
+
+nav a:hover {
+  color: #ccb081;
+}
+
+nav a[href="buy-now"] {
+  border-color: #ccb081;
+  color: #ccb081;
+}
+
+nav a[href="buy-now"]:hover {
+  border-color: #000;
+  color: #000;
 }
 
 /* hamburger */
