@@ -58,6 +58,7 @@ nav a[href="buy-now"]:hover {
 }
 
 .hamburger:before {
+  color: #fff;
   content: "\f0c9";
   font: 3em fontawesome;
 }
