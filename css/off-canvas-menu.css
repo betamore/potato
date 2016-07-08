@@ -20,7 +20,6 @@ body {
 nav {
   margin: 1em;
   position: absolute;
-  transition: transform .9s;
 }
 
 nav ul {
