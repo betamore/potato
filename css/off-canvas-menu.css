@@ -15,15 +15,18 @@ nav {
   margin: 1em;
   position: absolute;
   transition: transform .9s;
-  width: 220px;
-}
-
-nav.isOpen {
-  transform: translate3d(220px,0,0);
 }
 
 nav li {
   display: block;
+}
+
+nav a {
+  color: #000;
+}
+
+nav a[href="buy-now"] {
+  border-color: #ccb081;
 }
 
 nav ul {
@@ -54,7 +57,7 @@ main {
 }
 
 main.isOpen {
-  transform: translate3d(100px,0,0);
+  transform: translate3d(150px,0,0);
 }
 
 
