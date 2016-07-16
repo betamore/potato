@@ -113,5 +113,14 @@ a[href="buy-now"] {
   margin: 2em;
 }
 
+/* =========== Order ========== */
+
+#order {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
 
 
