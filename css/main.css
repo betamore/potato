@@ -162,5 +162,9 @@ a[href="buy-now"] {
   text-transform: uppercase;
 }
 
-
+#order small {
+  font-size: .65em;
+  padding-top: 1em;
+  text-align: center;
+}
 
