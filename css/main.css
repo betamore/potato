@@ -139,6 +139,9 @@ a[href="buy-now"] {
 #lite,
 #pro,
 #team {
+  display: flex;
+  flex-direction: column;
+  min-height: 16em;
   padding: 0 3em;
 }
 
