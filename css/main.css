@@ -145,5 +145,22 @@ a[href="buy-now"] {
   padding: 0 3em;
 }
 
+#lite ul,
+#pro ul,
+#team ul {
+  flex-grow: 1;
+}
+
+#order a {
+  color: green;
+  border: 1px solid green;
+  border-radius: 20px;
+  font-size: .75em;
+  margin-top: 3em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 
 
