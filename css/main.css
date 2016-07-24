@@ -188,3 +188,14 @@ a[href="buy-now"] {
   text-align: center;
 }
 
+#satisfaction {
+  background: bisque;
+  display: flex;
+  margin: 0;
+}
+
+#satisfaction blockquote {
+  margin: auto;
+}
+
+
