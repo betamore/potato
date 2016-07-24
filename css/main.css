@@ -210,6 +210,23 @@ a[href="buy-now"] {
 #satisfaction blockquote footer {
   font-size: .6em;
   margin: 2em 0;
+  padding: 2em 0;
+  position: relative;
+}
+
+/* =========== Down arrow ========== */
+
+#satisfaction blockquote footer:before {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    content: '';
+    height: 15px;
+    left: 290px;
+    position: absolute;
+    top: 5px;
+    transform: rotate(45deg);
+    width: 15px;
+  
 }
 
 #satisfaction blockquote footer span {
