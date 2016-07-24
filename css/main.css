@@ -229,8 +229,31 @@ a[href="buy-now"] {
   
 }
 
+/* =========== Arrow lines ========== */
+
+#satisfaction span:before,
+              span:after {
+    border-bottom: 1px solid black;
+    content: '';
+    position: absolute;
+    top: -19px;
+    width: 250px;
+  
+}
+#satisfaction span:before {
+    left: 100%;
+    margin-left: 20px;
+  
+}
+
+#satisfaction span:after {
+    right: 0;
+    margin-right: 2px;
+}
+
 #satisfaction blockquote footer span {
   font-weight: 400;
+  position: relative;
 
 }
 
