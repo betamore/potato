@@ -190,6 +190,8 @@ a[href="buy-now"] {
   text-align: center;
 }
 
+/* =========== Customer satisfaction ========== */
+
 #satisfaction {
   background: bisque;
   display: flex;
@@ -231,6 +233,11 @@ a[href="buy-now"] {
 
 /* =========== Arrow lines ========== */
 
+#satisfaction blockquote footer span {
+  font-weight: 400;
+  position: relative;
+}
+
 #satisfaction span:before,
               span:after {
     border-bottom: 1px solid black;
@@ -251,11 +258,7 @@ a[href="buy-now"] {
     margin-right: 2px;
 }
 
-#satisfaction blockquote footer span {
-  font-weight: 400;
-  position: relative;
-
-}
+/* =========== Previous & next slide arrows ========== */
 
 #satisfaction
   blockquote:before,
