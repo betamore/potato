@@ -44,7 +44,9 @@ h2 {
 
 /* =========== Potato trademark ========== */
 
-span:after {
+#intro span:after,
+#about span after,
+#order span after {
   content: "\2122";
   font-size: .5em;
   vertical-align: super;
