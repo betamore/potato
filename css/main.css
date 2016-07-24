@@ -202,6 +202,7 @@ a[href="buy-now"] {
   font-size: 1.5em;
   margin: auto;
   max-width: 25em;
+  position: relative;
 }
 
 #satisfaction blockquote footer {
@@ -214,7 +215,6 @@ a[href="buy-now"] {
 
 }
 
-
 #satisfaction
   blockquote:before,
   blockquote:after {
@@ -224,15 +224,19 @@ a[href="buy-now"] {
     content: '';
     display: block;
     height: 50px;
+    position: absolute;
+    top: 15px;
     width: 50px;
 }
 
 #satisfaction blockquote:before {
   background-image: url("../assets/svg/slider_prev.svg");
+  right: 110%;
 }
 
 #satisfaction blockquote:after {
   background-image: url("../assets/svg/slider_next.svg");
+  left: 110%;
 }
 
 
