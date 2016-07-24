@@ -192,6 +192,8 @@ a[href="buy-now"] {
   background: bisque;
   display: flex;
   margin: 0;
+  overflow: hidden;
+  width: 4000px;
 }
 
 #satisfaction blockquote {
