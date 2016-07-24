@@ -198,4 +198,24 @@ a[href="buy-now"] {
   margin: auto;
 }
 
+#satisfaction
+  blockquote:before,
+  blockquote:after {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+#satisfaction blockquote:before {
+  background-image: url("../assets/svg/slider_prev.svg");
+}
+
+#satisfaction blockquote:after {
+  background-image: url("../assets/svg/slider_next.svg");
+}
+
 
