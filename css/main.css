@@ -193,11 +193,15 @@ a[href="buy-now"] {
   display: flex;
   margin: 0;
   overflow: hidden;
+  text-align: center;
   width: 4000px;
 }
 
 #satisfaction blockquote {
+  font-weight: 300;
+  font-size: 1.5em;
   margin: auto;
+  max-width: 25em;
 }
 
 #satisfaction
