@@ -204,6 +204,17 @@ a[href="buy-now"] {
   max-width: 25em;
 }
 
+#satisfaction blockquote footer {
+  font-size: .6em;
+  margin: 2em 0;
+}
+
+#satisfaction blockquote footer span {
+  font-weight: 400;
+
+}
+
+
 #satisfaction
   blockquote:before,
   blockquote:after {
