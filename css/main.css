@@ -193,7 +193,20 @@ a[href="buy-now"] {
 /* =========== Customer satisfaction ========== */
 
 #satisfaction {
-  background: bisque;
+  background:
+     url(../assets/svg/potato-noun-415927.svg)
+     50px -40px / 10% auto
+     no-repeat,
+     url(../assets/svg/potato-noun-415927.svg)
+     right 275px bottom 100px / 10% auto
+     no-repeat,
+     url(../assets/svg/potato-noun-415927-45.svg)
+     top right / 20% 20%
+     no-repeat,
+     url(../assets/svg/potato-noun-415927-90.svg)
+     left 100px bottom 50px / 40% 20%
+     no-repeat;
+  color: #909090;
   text-align: center;
 }
 
