@@ -32,14 +32,12 @@ h1 {
   font-size: 225%;
   font-weight: 300;
   line-height: 133%;
-  margin-bottom: 0.33333em;
 }
 
 h2 {
   font-size: 150%;
   font-weight: 300;
   line-height: 150%;
-  margin-bottom: 0.5em;
 }
 
 /* =========== Potato trademark ========== */
@@ -118,11 +116,12 @@ a[href="buy-now"] {
 /* =========== About ========== */
 
 #about {
+  background: bisque;
   text-align: center;
 }
 
 #about h1 {
-  margin: 2em;
+  padding: 2em;
 }
 
 /* =========== Order ========== */
